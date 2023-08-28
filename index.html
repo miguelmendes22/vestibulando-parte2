@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestibulando</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    </head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+                <input type="checkbox" id="menu" class="container--botao">
+                <label for="menu" class="container_rotulo">
+                  <span class="cabecalho_menu_hamburguer container_imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu-titulo">CATEGORIAS</li>
+                <li class="lista-menu-item">
+                    <a href="#" class="lista_menu-link">Vestibulando 2023</a>
+                </li>
+
+                <li class="lista-menu-item">
+                    <a href="#" class="lista_menu-link">Descubra</a>
+                </li>
+                <li class="lista-menu-item">
+                     <a href="#" class="lista_menu-link">Plano de Estudos</a>
+                </li>
+                <li class="lista-menu-item">
+                     <a href="#" class="lista_menu-link">Sobre</a>
+                </li>                        
+            </ul>
+        <img class="capa-logo" src="img/capa.png" alt="capa">
+        </div>
+
+
+    </header>
+        <section class="banner">
+            <h2 class="banner__titulo">Entre na melhor Universidade</h2>
+            <p class="banner__texto">Pesquise já os mais interessantes planos de estudos para 2023</p>
+            <input type="search" class="banner_pesquisa" placeholder="O que será que você procura?">
+        </section>
+        <section class="carrossel">
+            <h2 class="carrossel_titulo">Inscrições</h2>
+
+            <!-- Slider main container -->
+            <div class="carrossel_container">
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/uem.jpg" alt="uem"></div>
+            <div class="swiper-slide"><img src="img/uel.jpeg" alt="uel"></div>
+            <div class="swiper-slide"><img src="img/puc.jpg" alt="puc"></div>
+            <div class="swiper-slide"><img src="img/uenp.jpg" alt="uenp"></div>
+            ...
+             </div>
+
+                    
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+            </div>
+
+            
+            <div class="card">
+                <!--1 linha-->
+                <div class="card_descricao">
+                    <!--1 coluna-->
+                    <div class="descricao">
+                        <h3 class="descricao_titulo">Os melhores planos de estudo.</h3>
+                        <h2 class="descricao_titulo-2">Vestibulando</h2>
+                        <p class="descricao_texto">Passe já na melhor faculdade do país com nosso plano de estudo!
+                        </p>
+                    </div>
+                    <!--2 coluna-->
+                    <img src="img/metodo estudo.jpg" alt="vestibular" class="descricao_imagem">
+                </div>
+    
+                <!--2 linha-->
+                <div class="card_botoes">
+                    <!--1 coluna-->
+                    <ul class="botoes">
+                        <li class="botoes_item"><img src="img/Favorito.svg" alt="Favoritos"></li>
+                        <li class="botoes_item"><img src="img/Comprar.svg" alt="Compras"></li>
+                    </ul>
+                    <!--2 coluna-->
+                    <a href="#" class="botoes_ancora">Descubra...</a>
+                </div>
+            </div>    
+            </div>
+
+    
+        </section>
+    
+        <section class="topicos">
+            <h2 class="topicos_titulo">PLANOS DE ESTUDOS</h2>
+            <ul class="topicos_lista">
+                <li class="topicos_item">
+                    <a href="#" class="topicos_link">REPERTÓRIO ENEM</a>            
+                </li>
+                <li class="topicos_item">
+                    <a href="#" class="topicos_link">BLOG DO WARLES</a>            
+                </li>
+                <li class="topicos_item">
+                    <a href="#" class="topicos_link">DESCOMPLICA</a>            
+                </li>
+                <li class="topicos_item">
+                    <a href="#" class="topicos_link">TRELLO</a>            
+                </li>
+                <li class="topicos_item">
+                    <a href="#" class="topicos_link">PROJETO DE VIDA</a>            
+                </li>
+            </ul>
+        </section>
+    
+    
+        <section class="contato">
+            <h2 class="contato_titulo">Fique por dentro das novidades!</h2>
+            <p class="contato_texto">Tudo sobre estudo</p>
+            <input type="email" placeholder="Cadastrar e-mail" class="contato_email">
+        </section>
+    
+        <hr/>
+    
+        <footer class="rodapé">
+            <h2 class="rodapé_titulo">Vestibulando</h2>
+            <ul class="lista_rodapé">
+                <li class="lista_rodapé_titulo">Educação</li>
+                    <li class="lista_rodapé_item">
+                        <img src="img/CasaDoCodigo.png" alt="Planejamento">
+                        <a href="#" class="lista_rodapé_link">Planejamento</a>
+                    </li>
+    
+                    <li class="lista_rodapé_item">
+                        <img src="img/Caelum.png" alt="Programa de Aprendizagem">
+                        <a href="#" class="lista_rodapé_link">Programa de Aprendizagem</a>
+                    </li>
+            </ul>
+    
+    
+            <ul class="lista_rodapé">
+                <li class="lista_rodapé_titulo">Educação Online</li>
+                <li class="lista_rodapé_item">
+                    <img src="img/Alura.png" alt="Simulados">
+                    <a href="#" class="lista_rodapé_link">Simulados</a>
+                </li>
+    
+                <li class="lista_rodapé_item">
+                    <img src="img/AluraEmpresas.png" alt="Avaliações">
+                    <a href="#" class="lista_rodapé_link">Avaliações</a>
+                </li>
+    
+                <li class="lista_rodapé_item">
+                    <img src="img/AluraLatam.png" alt="Preparatório">
+                    <a href="#" class="lista_rodapé_link">Preparatório</a>
+                </li>
+    
+                <li class="lista_rodapé_item">
+                    <img src="img/AluraStart.png" alt="Concurso">
+                    <a href="#" class="lista_rodapé_link">Concurso</a>
+                </li>
+    
+    
+                <li class="lista_rodapé_item">
+                    <img src="img/AluraLingua.png" alt="Letras">
+                    <a href="#" class="lista_rodapé_link">Letras</a>
+                </li>
+    
+                <li class="lista_rodapé_item">
+                    <img src="img/PM3.png" alt="podcast">
+                    <a href="#" class="lista_rodapé_link">Podcast</a>
+                </li>
+            </ul>
+    
+            <ul class="lista_rodapé">
+                <li class="lista_rodapé_titulo">Comunidade</li>
+                <li class="lista_rodapé_item">
+                    <img src="img/HipstersTech.png" alt="Tech">
+                    <a href="#" class="lista_rodapé_link">Tech Exercícios</a>
+                </li>
+    
+                <li class="lista_rodapé_item">
+                    <img src="img/Scuba.png" alt="Estuda">
+                    <a href="#" class="lista_rodapé_link">Estude em Casa</a>
+                </li>
+    
+                <li class="lista_rodapé_item">
+                    <img src="img/Layers.png" alt="Cursos">
+                    <a href="#" class="lista_rodapé_link">Cursos</a>
+                </li>
+    
+                <li class="lista_rodapé_item">
+                    <img src="img/LikeABoss.png" alt="LikeABoss">
+                    <a href="#" class="lista_rodapé_link">LikeABoss</a>
+                </li>
+    
+                <li class="lista_rodapé_item">
+                    <img src="img/CarreiraSemFronteira.png" alt="CarreiraSemFronteira">
+                    <a href="#" class="lista_rodapé_link">CarreiraSemFronteira</a>
+                </li>
+    
+                <li class="lista_rodapé_item">
+                    <img src="img/HipstersJobs.png" alt="Jobs">
+                    <a href="#" class="lista_rodapé_link">Jobs</a>
+                </li>
+    
+                <li class="lista_rodapé_item">
+                    <img src="img/GUJ.png" alt="Intensivo">
+                    <a href="#" class="lista_rodapé_link">Intensivo</a>
+                </li>
+            </ul>
+
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        },
+        });
+
+        </script>
+
+
+    </body>
+
+</html>
